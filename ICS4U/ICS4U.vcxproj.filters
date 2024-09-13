@@ -15,13 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ICS4U.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="100-Hello ICS4U.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="102-Data Types in C++.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="103-Area of Rectangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="104-Calculate Digits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="105-Make Change.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Palindrome 2 - Longest Palindrome.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
