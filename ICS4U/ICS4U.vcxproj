@@ -127,11 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Math Problem.cpp" />
     <ClCompile Include="100-Hello ICS4U.cpp" />
     <ClCompile Include="102-Data Types in C++.cpp" />
     <ClCompile Include="103-Area of Rectangle.cpp" />
     <ClCompile Include="104-Calculate Digits.cpp" />
     <ClCompile Include="105-Make Change.cpp" />
+    <ClCompile Include="Octomesters.cpp" />
     <ClCompile Include="Palindrome 2 - Longest Palindrome.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

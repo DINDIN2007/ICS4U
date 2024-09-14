@@ -6,9 +6,9 @@ double billTotal, customerTender;
 int main_105() {
 	std::cout << "Bill Total: $ ";
 	std::cin >> billTotal;
-	std::cout << "Customer Tender: $ ";
+	std::cout << "\nCustomer Tender: $ ";
 	std::cin >> customerTender;
-	std::cout << "Change is: ";
+	std::cout << "\nChange is : ";
 
 	if (billTotal > customerTender) {
 		std::cout << "\ninsufficient tender";

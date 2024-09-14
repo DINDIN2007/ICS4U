@@ -13,25 +13,34 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Unit 0 - Review">
+      <UniqueIdentifier>{7ab08baa-352c-4057-b45d-be9a35feeba9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Math Problem.cpp">
+      <Filter>Source Files\Unit 0 - Review</Filter>
+    </ClCompile>
     <ClCompile Include="100-Hello ICS4U.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Unit 0 - Review</Filter>
     </ClCompile>
     <ClCompile Include="102-Data Types in C++.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Unit 0 - Review</Filter>
     </ClCompile>
     <ClCompile Include="103-Area of Rectangle.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Unit 0 - Review</Filter>
     </ClCompile>
     <ClCompile Include="104-Calculate Digits.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Unit 0 - Review</Filter>
     </ClCompile>
     <ClCompile Include="105-Make Change.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Unit 0 - Review</Filter>
+    </ClCompile>
+    <ClCompile Include="Octomesters.cpp">
+      <Filter>Source Files\Unit 0 - Review</Filter>
     </ClCompile>
     <ClCompile Include="Palindrome 2 - Longest Palindrome.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Unit 0 - Review</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

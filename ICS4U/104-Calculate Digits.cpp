@@ -20,7 +20,7 @@ int main_104() {
 			sum += digit; input -= digit * (int)(pow(10, i));
 		}
 
-		else if (digit != 0) {
+		else if (digit != 0 || i == 0) {
 			std::cout << digit << (i <= 1 ? (i == 1 ? " and " : ".\n") : ", ");
 			sum += digit; input -= digit * (int)(pow(10, i));
 			hasReachedFirstDigit = true;
