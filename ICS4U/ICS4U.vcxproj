@@ -127,6 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="202-Pointer Exercise.cpp" />
+    <ClCompile Include="207a.cpp" />
+    <ClCompile Include="207b.cpp" />
     <ClCompile Include="Math Problem.cpp" />
     <ClCompile Include="100-Hello ICS4U.cpp" />
     <ClCompile Include="102-Data Types in C++.cpp" />

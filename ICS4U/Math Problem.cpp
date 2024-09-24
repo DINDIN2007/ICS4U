@@ -3,7 +3,7 @@
 
 int A, B;
 
-int main() {
+int main_math() {
 	// Get our numbers first
 	std::cin >> A >> B;
 
