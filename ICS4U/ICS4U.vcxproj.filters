@@ -19,6 +19,12 @@
     <Filter Include="Source Files\Unit 2">
       <UniqueIdentifier>{c5bb7361-8773-4507-b3e7-3358e94ee29d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Unit 3">
+      <UniqueIdentifier>{1e05980d-7744-42ae-b7da-806593aaa6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unit 4">
+      <UniqueIdentifier>{960cb400-6804-4565-975b-fd497e1ca0c1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Math Problem.cpp">
@@ -45,14 +51,98 @@
     <ClCompile Include="Palindrome 2 - Longest Palindrome.cpp">
       <Filter>Source Files\Unit 1 - Review</Filter>
     </ClCompile>
-    <ClCompile Include="202-Pointer Exercise.cpp">
+    <ClCompile Include="102-Pointer Exercise.cpp">
+      <Filter>Source Files\Unit 2</Filter>
+    </ClCompile>
+    <ClCompile Include="103-Functions with Pointers.cpp">
+      <Filter>Source Files\Unit 2</Filter>
+    </ClCompile>
+    <ClCompile Include="104-Dynamic Array Exercises.cpp">
+      <Filter>Source Files\Unit 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files\Unit 2</Filter>
+    </ClCompile>
+    <ClCompile Include="104-Dynamic 2D arrays.cpp">
+      <Filter>Source Files\Unit 2</Filter>
+    </ClCompile>
+    <ClCompile Include="107-Magic Square.cpp">
       <Filter>Source Files\Unit 2</Filter>
     </ClCompile>
     <ClCompile Include="207a.cpp">
-      <Filter>Source Files\Unit 2</Filter>
+      <Filter>Source Files\Unit 3</Filter>
     </ClCompile>
     <ClCompile Include="207b.cpp">
+      <Filter>Source Files\Unit 3</Filter>
+    </ClCompile>
+    <ClCompile Include="207c.cpp">
+      <Filter>Source Files\Unit 3</Filter>
+    </ClCompile>
+    <ClCompile Include="207d-Recursion Exercises.cpp">
+      <Filter>Source Files\Unit 3</Filter>
+    </ClCompile>
+    <ClCompile Include="207e Recursion Exercises - twopower.cpp">
+      <Filter>Source Files\Unit 3</Filter>
+    </ClCompile>
+    <ClCompile Include="207f-Recursion Exercises - Sum.cpp">
+      <Filter>Source Files\Unit 3</Filter>
+    </ClCompile>
+    <ClCompile Include="207g-Recursion Exercises - Largest.cpp">
+      <Filter>Source Files\Unit 3</Filter>
+    </ClCompile>
+    <ClCompile Include="207h-Recursion Exercises - Birthday Problem.cpp">
+      <Filter>Source Files\Unit 3</Filter>
+    </ClCompile>
+    <ClCompile Include="208 Q1 - Recursive Sequences.cpp">
+      <Filter>Source Files\Unit 3</Filter>
+    </ClCompile>
+    <ClCompile Include="106b.cpp">
       <Filter>Source Files\Unit 2</Filter>
+    </ClCompile>
+    <ClCompile Include="106a.cpp">
+      <Filter>Source Files\Unit 2</Filter>
+    </ClCompile>
+    <ClCompile Include="208 Q2 - Recursive GCD.cpp">
+      <Filter>Source Files\Unit 3</Filter>
+    </ClCompile>
+    <ClCompile Include="208 Q3 - Recursive Palindrome.cpp">
+      <Filter>Source Files\Unit 3</Filter>
+    </ClCompile>
+    <ClCompile Include="208 Q4 - Recursive Decimal to Binary.cpp">
+      <Filter>Source Files\Unit 3</Filter>
+    </ClCompile>
+    <ClCompile Include="208 Q6 - Fractorials.cpp">
+      <Filter>Source Files\Unit 3</Filter>
+    </ClCompile>
+    <ClCompile Include="208 Q5 - Recursive Average.cpp">
+      <Filter>Source Files\Unit 3</Filter>
+    </ClCompile>
+    <ClCompile Include="301 - Linear and Binary Search.cpp">
+      <Filter>Source Files\Unit 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Precipitate_Lesson.cpp">
+      <Filter>Source Files\Unit 4</Filter>
+    </ClCompile>
+    <ClCompile Include="302 - Insertion Sort.cpp">
+      <Filter>Source Files\Unit 4</Filter>
+    </ClCompile>
+    <ClCompile Include="pH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="304 - Bubble Sort.cpp">
+      <Filter>Source Files\Unit 4</Filter>
+    </ClCompile>
+    <ClCompile Include="303 - Selection Sort.cpp">
+      <Filter>Source Files\Unit 4</Filter>
+    </ClCompile>
+    <ClCompile Include="305 - Shell Sort.cpp">
+      <Filter>Source Files\Unit 4</Filter>
+    </ClCompile>
+    <ClCompile Include="306 - Quick Sort.cpp">
+      <Filter>Source Files\Unit 4</Filter>
+    </ClCompile>
+    <ClCompile Include="307 - Merge Sort.cpp">
+      <Filter>Source Files\Unit 4</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

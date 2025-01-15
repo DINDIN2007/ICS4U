@@ -23,6 +23,7 @@ int main_202() {
 	// Now, output the value of num1 and pnum.
 	int* pnum = NULL;
 	pnum = &num1; *pnum += 10;
+	std::cout << num1 << "\n" << pnum << "\n";
 
 	// Next, let pnum point to num2, then multiply num2 by 10 by using* pnum and assign its value to num1.
 	// Now, output the values of num1, pnum and *pnum.

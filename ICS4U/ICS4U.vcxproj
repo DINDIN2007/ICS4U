@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -127,9 +127,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="202-Pointer Exercise.cpp" />
+    <ClCompile Include="102-Pointer Exercise.cpp" />
+    <ClCompile Include="103-Functions with Pointers.cpp" />
+    <ClCompile Include="104-Dynamic 2D arrays.cpp" />
+    <ClCompile Include="104-Dynamic Array Exercises.cpp" />
+    <ClCompile Include="106a.cpp" />
+    <ClCompile Include="106b.cpp" />
+    <ClCompile Include="107-Magic Square.cpp" />
     <ClCompile Include="207a.cpp" />
     <ClCompile Include="207b.cpp" />
+    <ClCompile Include="207c.cpp" />
+    <ClCompile Include="207d-Recursion Exercises.cpp" />
+    <ClCompile Include="207e Recursion Exercises - twopower.cpp" />
+    <ClCompile Include="207f-Recursion Exercises - Sum.cpp" />
+    <ClCompile Include="207g-Recursion Exercises - Largest.cpp" />
+    <ClCompile Include="207h-Recursion Exercises - Birthday Problem.cpp" />
+    <ClCompile Include="208 Q2 - Recursive GCD.cpp" />
+    <ClCompile Include="208 Q3 - Recursive Palindrome.cpp" />
+    <ClCompile Include="208 Q4 - Recursive Decimal to Binary.cpp" />
+    <ClCompile Include="208 Q1 - Recursive Sequences.cpp" />
+    <ClCompile Include="208 Q5 - Recursive Average.cpp" />
+    <ClCompile Include="208 Q6 - Fractorials.cpp" />
+    <ClCompile Include="301 - Linear and Binary Search.cpp" />
+    <ClCompile Include="302 - Insertion Sort.cpp" />
+    <ClCompile Include="303 - Selection Sort.cpp" />
+    <ClCompile Include="304 - Bubble Sort.cpp" />
+    <ClCompile Include="305 - Shell Sort.cpp" />
+    <ClCompile Include="306 - Quick Sort.cpp" />
+    <ClCompile Include="307 - Merge Sort.cpp" />
     <ClCompile Include="Math Problem.cpp" />
     <ClCompile Include="100-Hello ICS4U.cpp" />
     <ClCompile Include="102-Data Types in C++.cpp" />
@@ -138,6 +163,9 @@
     <ClCompile Include="105-Make Change.cpp" />
     <ClCompile Include="Octomesters.cpp" />
     <ClCompile Include="Palindrome 2 - Longest Palindrome.cpp" />
+    <ClCompile Include="pH.cpp" />
+    <ClCompile Include="Precipitate_Lesson.cpp" />
+    <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
