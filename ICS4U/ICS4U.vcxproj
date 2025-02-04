@@ -166,6 +166,7 @@
     <ClCompile Include="pH.cpp" />
     <ClCompile Include="Precipitate_Lesson.cpp" />
     <ClCompile Include="Test.cpp" />
+    <ClCompile Include="U4L1 - Introduction to Object Oriented Programming.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

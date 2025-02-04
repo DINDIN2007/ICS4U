@@ -25,6 +25,9 @@
     <Filter Include="Source Files\Unit 4">
       <UniqueIdentifier>{960cb400-6804-4565-975b-fd497e1ca0c1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Unit 5">
+      <UniqueIdentifier>{a8889816-ba48-4c6a-9638-5ac1d41fbcdd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Math Problem.cpp">
@@ -143,6 +146,9 @@
     </ClCompile>
     <ClCompile Include="307 - Merge Sort.cpp">
       <Filter>Source Files\Unit 4</Filter>
+    </ClCompile>
+    <ClCompile Include="U4L1 - Introduction to Object Oriented Programming.cpp">
+      <Filter>Source Files\Unit 5</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
