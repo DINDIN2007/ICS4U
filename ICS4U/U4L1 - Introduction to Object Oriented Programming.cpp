@@ -16,6 +16,7 @@ struct Time {
 	int hour, min, sec;
 };
 
+// Watch class
 class DigitalWatch {
 	public:
 		// Variables for the Watch
@@ -29,8 +30,7 @@ class DigitalWatch {
 		void changeColor(int selection);
 };
 
-// Reference : 
-// https://cplusplus.com/reference/ctime/time/
+// Reference : https://cplusplus.com/reference/ctime/time/
 void DigitalWatch::getTime() {
 	// Get the current time as a time_t object
 	std::time_t currentTime = std::time(nullptr);
@@ -45,6 +45,7 @@ void DigitalWatch::getTime() {
 	time.sec = localTime.tm_sec;
 }
 
+// Function to print out a formatted time provided by a watch
 void printTime(DigitalWatch watch) {
 	// Get the current time
 	watch.getTime();
@@ -104,10 +105,11 @@ void DigitalWatch::changeColor(int selection) {
 		case 8:
 			system("Color E0"); // Yellow background, black text
 			break;
-		// Cool watch fun
+		// Cool watch fun colors
 		case 100:
 			system("Color 1E");
 			break;
+		// Changes to default console colors if the user inputs something outside of that range
 		default:
 			system("Color 07");	// Default black background, white text
 	}
@@ -117,7 +119,7 @@ int main() {
 	// Declare a watch from the Digital watch class
 	DigitalWatch watch, coolWatch;
 
-	// Run this segment until 
+	// Run this segment until the user tells the program to stop
 	bool isProgramEnded = false, isCoolWatch = false;
 	while (!isProgramEnded) {
 		// Ask the user to select one of the options to run the watche's functions
@@ -169,7 +171,7 @@ int main() {
 		std::cout << "\n---------------------------------------\n\n";
 	}
 
-	// End of program
+	// End of program 
 	std::cout << "Program Ended";
 	return 0;
 }

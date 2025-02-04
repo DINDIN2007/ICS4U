@@ -55,7 +55,7 @@ int binarySearch(int size, int* a, int target) {
 }
 
 // Use your functions to create a program that will output something similar to the following :
-int main_301() {
+int main() {
 	int N, X; std::cin >> N >> X;
 	int* a = new int[N];
 
