@@ -115,7 +115,7 @@ void DigitalWatch::changeColor(int selection) {
 	}
 }
 
-int main() {
+int main_401() {
 	// Declare a watch from the Digital watch class
 	DigitalWatch watch, coolWatch;
 

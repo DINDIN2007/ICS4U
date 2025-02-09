@@ -155,6 +155,8 @@
     <ClCompile Include="305 - Shell Sort.cpp" />
     <ClCompile Include="306 - Quick Sort.cpp" />
     <ClCompile Include="307 - Merge Sort.cpp" />
+    <ClCompile Include="Fraction.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="Math Problem.cpp" />
     <ClCompile Include="100-Hello ICS4U.cpp" />
     <ClCompile Include="102-Data Types in C++.cpp" />
@@ -166,6 +168,9 @@
     <ClCompile Include="pH.cpp" />
     <ClCompile Include="Precipitate_Lesson.cpp" />
     <ClCompile Include="Test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fraction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

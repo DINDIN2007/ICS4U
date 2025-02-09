@@ -25,6 +25,12 @@
     <Filter Include="Source Files\Unit 4">
       <UniqueIdentifier>{960cb400-6804-4565-975b-fd497e1ca0c1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Unit 5">
+      <UniqueIdentifier>{f82b5d70-edea-4531-ba57-452ce0575aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unit 5\U4L2 - Fundamental Concepts of OOP">
+      <UniqueIdentifier>{c59a6f97-b421-4afa-b0cb-f50e1a47efd5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Math Problem.cpp">
@@ -144,5 +150,16 @@
     <ClCompile Include="307 - Merge Sort.cpp">
       <Filter>Source Files\Unit 4</Filter>
     </ClCompile>
+    <ClCompile Include="Fraction.cpp">
+      <Filter>Source Files\Unit 5\U4L2 - Fundamental Concepts of OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Unit 5\U4L2 - Fundamental Concepts of OOP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fraction.h">
+      <Filter>Source Files\Unit 5\U4L2 - Fundamental Concepts of OOP</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
