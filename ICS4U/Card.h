@@ -1,6 +1,8 @@
 #ifndef CARD_H_
 #define CARD_H_
+
 #include <iostream>
+#include <string>
 
 class Card {
 public:
@@ -25,6 +27,9 @@ public:
 	// f) Two static arrays of strings representing the faces and suits.
 	static std::string faces[13];
 	static std::string suits[4];
+
+	// g) Overload the stream insertion(<< ) operator to output the Card as “face of suit”.
+	friend std::ostream& operator << (std::ostream& output, const Card& card);
 };
 
 #endif 

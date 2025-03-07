@@ -1,3 +1,5 @@
+#include <iostream>
+#include <string>
 #include "Card.h"
 
 // f) Two static arrays of strings representing the faces and suits.
@@ -12,7 +14,7 @@ Card::Card() {
 
 // c) A parameterized constructor that receives two int values representing the face and suit of a card and uses them to initialize the data members.
 Card::Card(int face, int suit) {
-	bool isFace = face >= 1 && face <= 13, isSuit = suit >= 1 && suit <= 4;
+	bool isFace = face >= 0 && face <= 12, isSuit = suit >= 0 && suit <= 3;
 	if (!(isFace && isSuit)) throw "The face or suit of the card is not valid.";
 	this->face = face;
 	this->suit = suit;
@@ -34,7 +36,7 @@ Card& Card::operator = (Card& card) {
 }
 
 // g) Overload the stream insertion(<< ) operator to output the Card as “face of suit”.
-std::ostream& operator << (std::ostream& output, Card& card) {
+std::ostream& operator << (std::ostream& output, const Card& card) {
 	output << Card::faces[card.face] << " of " << Card::suits[card.suit];
 	return output;
 }

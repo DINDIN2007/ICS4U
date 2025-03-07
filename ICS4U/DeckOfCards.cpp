@@ -1,6 +1,5 @@
 #include <iostream>
 #include "DeckOfCards.h"
-#include "Card.cpp"
 
 // d) A default constructor that initializes each of the Cards in the deck.
 DeckOfCards::DeckOfCards() {
@@ -8,7 +7,7 @@ DeckOfCards::DeckOfCards() {
 	for (int i = 0; i < 13; i++) {
 		for (int j = 0; j < 4; j++) {
 			Card temp_card (i, j);
-			deck[i * 13 + j] = temp_card;
+			deck[i * 4 + j] = temp_card;
 		}
 	}
 }
@@ -18,7 +17,7 @@ DeckOfCards::DeckOfCards() {
 // For each Card, randomly select another Card in the deck and swap the two Cards.
 void DeckOfCards::shuffle() {
 	for (int i = 0; i < SIZE_OF_DECK; i++) {
-		int swap_place = rand() % SIZE_MAX;
+		int swap_place = rand() % SIZE_OF_DECK;
 		Card temp_card = deck[swap_place];
 		deck[swap_place] = deck[i];
 		deck[i] = temp_card;

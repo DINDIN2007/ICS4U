@@ -1,7 +1,7 @@
 #ifndef DECKOFCARDS_H_
 #define DECKOFCARDS_H_
 
-#include "Card.cpp"
+#include "Card.h"
 
 class DeckOfCards {
 public:
