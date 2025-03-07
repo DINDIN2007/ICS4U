@@ -3,7 +3,7 @@
 
 // Code to test out Fraction class
 
-int main() {
+int main_1() {
 	// Test Default Fraction
 	Fraction f1;
 	std::cout << "The fraction f1 is set to default : " << f1.toString() << ".\n";
