@@ -16,6 +16,7 @@ DeckOfCards::DeckOfCards() {
 // The shuffle algorithm should iterate through the array of Cards.
 // For each Card, randomly select another Card in the deck and swap the two Cards.
 void DeckOfCards::shuffle() {
+	srand(time(0));
 	for (int i = 0; i < SIZE_OF_DECK; i++) {
 		int swap_place = rand() % SIZE_OF_DECK;
 		Card temp_card = deck[swap_place];

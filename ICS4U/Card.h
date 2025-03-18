@@ -29,7 +29,7 @@ public:
 	static std::string suits[4];
 
 	// g) Overload the stream insertion(<< ) operator to output the Card as “face of suit”.
-	friend std::ostream& operator << (std::ostream& output, const Card& card);
+	friend std::ostream& operator << (std::ostream& output, Card& card);
 };
 
 #endif 

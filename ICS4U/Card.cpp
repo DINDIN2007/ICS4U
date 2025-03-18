@@ -36,7 +36,7 @@ Card& Card::operator = (Card& card) {
 }
 
 // g) Overload the stream insertion(<< ) operator to output the Card as “face of suit”.
-std::ostream& operator << (std::ostream& output, const Card& card) {
+std::ostream& operator << (std::ostream& output, Card& card) {
 	output << Card::faces[card.face] << " of " << Card::suits[card.suit];
 	return output;
 }

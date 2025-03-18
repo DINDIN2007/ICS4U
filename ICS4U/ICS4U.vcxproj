@@ -170,6 +170,7 @@
     <ClCompile Include="pH.cpp" />
     <ClCompile Include="Precipitate_Lesson.cpp" />
     <ClCompile Include="Test.cpp" />
+    <ClCompile Include="U4L4 Bonus.cpp" />
     <ClCompile Include="U4L4.cpp" />
   </ItemGroup>
   <ItemGroup>

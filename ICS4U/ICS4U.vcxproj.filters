@@ -168,6 +168,9 @@
     <ClCompile Include="U4L4.cpp">
       <Filter>Source Files\Unit 5\U4L4 - Deck of Cards</Filter>
     </ClCompile>
+    <ClCompile Include="U4L4 Bonus.cpp">
+      <Filter>Source Files\Unit 5\U4L4 - Deck of Cards</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fraction.h">

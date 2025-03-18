@@ -3,7 +3,7 @@
 #include "DeckOfCards.h"
 #include "Card.h"
 
-int main() {
+int main_12039123() {
 	std::cout << std::boolalpha;
 
 	// Test the parameter constructor
@@ -40,7 +40,8 @@ int main() {
 	// Test the dealCards method
 	std::cout << "Deal Cards\n";
 	for (int i = 0; i < deck1.SIZE_OF_DECK; i++) {
-		std::cout << deck1.dealCard() << "\n";
+		Card temp_card = deck1.dealCard();
+		std::cout << temp_card << "\n";
 	}
 	std::cout << "\n\n\n";
 
