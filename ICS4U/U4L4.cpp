@@ -3,7 +3,7 @@
 #include "DeckOfCards.h"
 #include "Card.h"
 
-int main_12039123() {
+int main() {
 	std::cout << std::boolalpha;
 
 	// Test the parameter constructor
