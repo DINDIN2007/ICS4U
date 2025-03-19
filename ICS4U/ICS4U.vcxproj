@@ -156,6 +156,7 @@
     <ClCompile Include="306 - Quick Sort.cpp" />
     <ClCompile Include="307 - Merge Sort.cpp" />
     <ClCompile Include="Card.cpp" />
+    <ClCompile Include="Circle.cpp" />
     <ClCompile Include="DeckOfCards.cpp" />
     <ClCompile Include="Fraction.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -169,14 +170,22 @@
     <ClCompile Include="Palindrome 2 - Longest Palindrome.cpp" />
     <ClCompile Include="pH.cpp" />
     <ClCompile Include="Precipitate_Lesson.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Shape.cpp" />
     <ClCompile Include="Test.cpp" />
+    <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="U4L4 Bonus.cpp" />
+    <ClCompile Include="U4L4-Main.cpp" />
     <ClCompile Include="U4L4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Card.h" />
+    <ClInclude Include="Circle.h" />
     <ClInclude Include="DeckOfCards.h" />
     <ClInclude Include="Fraction.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="Triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

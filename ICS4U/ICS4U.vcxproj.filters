@@ -34,6 +34,9 @@
     <Filter Include="Source Files\Unit 5\U4L4 - Deck of Cards">
       <UniqueIdentifier>{068e9f72-0cce-46e3-a499-c8aafb009a30}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Unit 5\U4L4 - Inheritance and Polymorphism">
+      <UniqueIdentifier>{86c6ca36-e181-4256-8336-892dd6fe87ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Math Problem.cpp">
@@ -171,6 +174,21 @@
     <ClCompile Include="U4L4 Bonus.cpp">
       <Filter>Source Files\Unit 5\U4L4 - Deck of Cards</Filter>
     </ClCompile>
+    <ClCompile Include="U4L4-Main.cpp">
+      <Filter>Source Files\Unit 5\U4L4 - Inheritance and Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Source Files\Unit 5\U4L4 - Inheritance and Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files\Unit 5\U4L4 - Inheritance and Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Source Files\Unit 5\U4L4 - Inheritance and Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files\Unit 5\U4L4 - Inheritance and Polymorphism</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fraction.h">
@@ -181,6 +199,18 @@
     </ClInclude>
     <ClInclude Include="DeckOfCards.h">
       <Filter>Source Files\Unit 5\U4L4 - Deck of Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Source Files\Unit 5\U4L4 - Inheritance and Polymorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Source Files\Unit 5\U4L4 - Inheritance and Polymorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Source Files\Unit 5\U4L4 - Inheritance and Polymorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Source Files\Unit 5\U4L4 - Inheritance and Polymorphism</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
